@@ -1,5 +1,6 @@
 import CityCard from "@/components/CityCard"; 
 import GridContainer from "@/components/GridContainer";
+import { Button } from "@/components/ui/button";
 
 export default function CiudadesPage() {
   const ciudades = [
@@ -22,6 +23,20 @@ export default function CiudadesPage() {
           <CityCard key={c.name} name={c.name} image={c.image} href={c.href} />
         ))}
       </div>
+      <a href="/proyecto">
+          <Button
+            className="
+              mt-6 px-6 py-3 
+              rounded-xl font-semibold 
+              bg-blue-600 text-white
+              shadow-lg shadow-blue-300
+              hover:bg-blue-700 hover:shadow-blue-400
+              transition-all duration-300
+            "
+          >
+            Volver
+          </Button>
+        </a>
     </main>
   );
 }

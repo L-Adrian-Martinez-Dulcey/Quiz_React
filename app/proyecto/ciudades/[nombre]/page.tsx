@@ -20,7 +20,7 @@ export default function CiudadDinamica() {
       {/* Imagen */}
       <div className="max-w-4xl mx-auto mb-8 overflow-hidden rounded-2xl shadow-xl">
         <img
-          src={`/ciudades/.jpg`}
+          src={`/ciudades/name.jpg`}
           alt={ciudad}
           className="w-full h-80 object-cover"
         />

@@ -1,4 +1,4 @@
-import PageHeader from "@/components/PageHeader"; 
+import PageHeader from "@/components/PageHeader";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -54,6 +54,20 @@ export default function Proyecto() {
               "
             >
               Contacto
+            </Button>
+
+          </a>
+          <a href="/">
+            <Button
+              className="
+              w-full px-6 py-3 rounded-xl font-semibold 
+                bg-blue-600 text-white 
+                shadow-lg shadow-blue-300
+                hover:bg-blue-700 hover:shadow-blue-400
+                transition-all duration-300
+              "
+            >
+              Ir Al Inicio
             </Button>
           </a>
 

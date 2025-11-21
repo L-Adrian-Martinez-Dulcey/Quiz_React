@@ -10,7 +10,7 @@ export default function Home() {
         <div className="bg-white shadow-xl rounded-2xl border border-blue-200 p-8">
           <StudentCard
             name="Lenin Adrian Martinez Dulcey"
-            program="Tecnólogo / Técnico — Programa SENA"
+            program="Tecnólogo — Programa ADSO SENA"
             image="/avatar.jpg"
           />
         </div>
